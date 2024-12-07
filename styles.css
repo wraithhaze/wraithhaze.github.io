@@ -1,4 +1,4 @@
-/* General Body Styling */
+\/* General Body Styling */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -37,12 +37,16 @@ header {
 }
 
 header h1 {
+  font-family: 'Alef', sans-serif;
   font-size: 3.5rem;
+  font-weight: 400;
   margin: 0.5rem 0;
   text-shadow: 2px 2px 5px black;
 }
 
 header a {
+  font-family: 'Alef', sans-serif;
+  font-weight: 400;
   font-size: 1.2rem;
   color: #4caf50;
   text-decoration: none;
@@ -68,6 +72,8 @@ header a:hover {
 }
 
 .navbar a {
+  font-family: 'Actor', sans-serif;
+  font-weight: 700;
   text-decoration: none;
   color: white;
   padding: 5px 10px;
@@ -134,4 +140,3 @@ header a:hover {
     flex-direction: row; /* Ensure the navbar stays horizontal */
   }
 }
-
