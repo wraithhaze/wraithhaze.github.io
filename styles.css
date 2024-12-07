@@ -80,3 +80,58 @@ header a:hover {
   background-color: #4caf50;
   color: black;
 }
+
+/* ========== MEDIA QUERIES FOR RESPONSIVENESS ========== */
+
+/* Small screens (phones, less than 600px wide) */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.5rem; /* Smaller header font size */
+  }
+
+  header a {
+    font-size: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Stack navigation links vertically */
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 1rem; /* Smaller navbar link font size */
+  }
+
+  .social-links img {
+    width: 25px; /* Smaller social icons */
+    height: 25px;
+  }
+}
+
+/* Medium screens (tablets, 600px to 900px wide) */
+@media (min-width: 600px) and (max-width: 900px) {
+  header h1 {
+    font-size: 3rem; /* Slightly smaller header */
+  }
+
+  .navbar a {
+    font-size: 1.1rem; /* Adjust font size for navigation links */
+  }
+
+  .social-links img {
+    width: 28px; /* Slightly smaller social icons */
+    height: 28px;
+  }
+}
+
+/* Large screens (desktops, more than 900px wide) */
+@media (min-width: 900px) {
+  header h1 {
+    font-size: 3.5rem; /* Keep the original font size for large screens */
+  }
+
+  .navbar ul {
+    flex-direction: row; /* Ensure the navbar stays horizontal */
+  }
+}
+
