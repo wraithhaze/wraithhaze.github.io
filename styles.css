@@ -1,0 +1,65 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black; /* Fallback color if image doesn't load */
+}
+
+/* Background Section */
+.background {
+  background-image: url('assets/mountain.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Navigation Section */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Transparent background */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: lightblue;
+}
