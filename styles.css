@@ -2,50 +2,27 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover; 
+  background: url('assets/background.jpg') no-repeat center center/cover;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 100vh;
-  text-align: center;
-}
-
-/* Header Styling */
-h1 {
-  font-size: 4rem;
-  margin-bottom: 0.5rem;
-  text-shadow: 2px 2px 5px black;
-  animation: fadeIn 2s ease-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-a {
-  color: #4caf50;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #81c784;
 }
 
 /* Social Links */
+.social-links {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .social-links img {
-  width: 40px;
-  height: 40px;
-  margin: 10px;
+  width: 30px;
+  height: 30px;
   transition: transform 0.3s ease;
 }
 
@@ -53,24 +30,49 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* Navigation Bar */
+/* Header Styling */
+header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin: 0.5rem 0;
+  text-shadow: 2px 2px 5px black;
+}
+
+header a {
+  font-size: 1.2rem;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #81c784;
+}
+
+/* Footer Navigation Bar */
+.navbar {
+  background-color: #001f3f; /* Deep blue color */
+  padding: 10px 0;
+}
+
 .navbar ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.navbar li {
-  margin: 0 15px;
+  gap: 20px;
 }
 
 .navbar a {
   text-decoration: none;
   color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border-radius: 3px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
