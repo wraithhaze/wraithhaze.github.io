@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallwiz.com%2Fshare%2Fdark-mountains%2Fmountains-on-sunset&psig=AOvVaw3DF9gDDyxhCyEjjCpbyslr&ust=1733619586461000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCria-6lIoDFQAAAAAdAAAAABAE') no-repeat center center/cover; 
+  background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover; 
   color: white;
   display: flex;
   flex-direction: column;
@@ -78,4 +78,3 @@ a:hover {
   background-color: #4caf50;
   color: black;
 }
-
